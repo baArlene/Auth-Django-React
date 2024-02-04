@@ -1,0 +1,46 @@
+@import './variables.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: 'Poppin', sans-serif;
+    color: $dark-color;
+    font-size: 1.5rem;
+
+    p{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: $main-color;
+    margin-bottom: 0.5rem;
+}
+
+span{
+    font-size: 1rem;
+}
+
+.App{
+    width: 100%;
+    height: 100vh;
+    background-color: $soft-bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container{
+        background-color: $main-bg;
+        box-shadow: 0px 0px 2rem 0px rgba($color: #000000, $alpha: 0.15);
+        
+    }
+}
